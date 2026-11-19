@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zhuhz/zhz_ws/build/zhz_interfaces/rosidl_generator_py/zhz_interfaces/zhz_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "zhz_interfaces__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/zhz_interfaces")

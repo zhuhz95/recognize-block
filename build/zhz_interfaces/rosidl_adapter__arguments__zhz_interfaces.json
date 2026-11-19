@@ -1,0 +1,6 @@
+{
+  "package_name": "zhz_interfaces",
+  "non_idl_tuples": [
+    "/home/zhuhz/zhz_ws/src/zhz_interfaces:srv/DetectBlock.srv"
+  ]
+}

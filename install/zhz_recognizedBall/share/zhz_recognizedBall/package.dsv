@@ -1,0 +1,8 @@
+source;share/zhz_recognizedBall/hook/cmake_prefix_path.ps1
+source;share/zhz_recognizedBall/hook/cmake_prefix_path.dsv
+source;share/zhz_recognizedBall/hook/cmake_prefix_path.sh
+source;share/zhz_recognizedBall/local_setup.bash
+source;share/zhz_recognizedBall/local_setup.dsv
+source;share/zhz_recognizedBall/local_setup.ps1
+source;share/zhz_recognizedBall/local_setup.sh
+source;share/zhz_recognizedBall/local_setup.zsh

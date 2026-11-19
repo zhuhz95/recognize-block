@@ -1,0 +1,1 @@
+/home/zhuhz/zhz_ws/build/zhz_interfaces/rosidl_generator_cpp/zhz_interfaces/srv/detail/detect_block__type_support.hpp

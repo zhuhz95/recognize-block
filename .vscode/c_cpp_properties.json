@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "name": "Linux ROS 2 Humble",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/opt/ros/humble/include/**",
+        "/usr/local/include/opencv4",
+        "/usr/include/opencv4"
+      ],
+      "defines": [],
+      "compilerPath": "/usr/bin/g++",
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "linux-gcc-x64"
+    }
+  ],
+  "version": 4
+}

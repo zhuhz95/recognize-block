@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zhuhz/zhz_ws/build/zhz_recognizedBall/image_publisher" "/home/zhuhz/zhz_ws/build/zhz_recognizedBall/block_detector" "TARGETS" "image_publisher" "block_detector" "DESTINATION" "lib/zhz_recognizedBall")

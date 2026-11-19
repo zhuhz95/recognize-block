@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<launch>
+  
+  <arg name="image_path" default="$(find-pkg-share zhz_recognizedBall)/data/blocks.jpg"/>
+
+  
+  <node pkg="zhz_recognizedBall" exec="image_publisher" name="image_publisher" output="screen">
+    <param name="image_path" value="$(var image_path)"/>
+  </node>
+
+  
+  <node pkg="zhz_recognizedBall" exec="block_detector" name="block_detector" output="screen"/>
+
+  
+  <node pkg="rosapi" exec="rosapi_node" name="rosapi" output="screen"/>
+  <node pkg="rosbridge_server" exec="rosbridge_websocket" name="rosbridge_websocket" output="screen">
+    <param name="port" value="9090"/>
+    <param name="address" value="0.0.0.0"/>
+  </node>
+</launch>

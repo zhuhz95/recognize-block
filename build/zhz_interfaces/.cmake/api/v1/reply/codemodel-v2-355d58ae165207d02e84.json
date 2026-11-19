@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ccc57df043527c50f9b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						18
+					]
+				},
+				{
+					"build" : "zhz_interfaces__py",
+					"jsonFile" : "directory-zhz_interfaces__py-bfc67f05ae1a432e0351.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/zhuhz/zhz_ws/build/zhz_interfaces/zhz_interfaces__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "zhz_interfaces__rs",
+					"jsonFile" : "directory-zhz_interfaces__rs-66d30392950696954854.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/zhuhz/zhz_ws/build/zhz_interfaces/zhz_interfaces__rs",
+					"targetIndexes" : 
+					[
+						17
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "zhz_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_zhz_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_zhz_interfaces_egg-7a20d787505675a3cab6.json",
+					"name" : "ament_cmake_python_build_zhz_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_zhz_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_zhz_interfaces-dd9b2e8469333ec9b581.json",
+					"name" : "ament_cmake_python_symlink_zhz_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2c82528898b39ea51896.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zhz_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zhz_interfaces-6e2bde7b51a06f88aa9f.json",
+					"name" : "zhz_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zhz_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zhz_interfaces__cpp-a591f100c6099f5b9810.json",
+					"name" : "zhz_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "zhz_interfaces__py::@caaf785c0007a11be109",
+					"jsonFile" : "target-zhz_interfaces__py-7c39d88c0e7d99af2ef7.json",
+					"name" : "zhz_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zhz_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zhz_interfaces__rosidl_generator_c-0206dd0090a7a00b2d37.json",
+					"name" : "zhz_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zhz_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zhz_interfaces__rosidl_generator_py-2636d94c434ad1e75f4d.json",
+					"name" : "zhz_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zhz_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zhz_interfaces__rosidl_typesupport_c-943ceb017dbafb3c87a3.json",
+					"name" : "zhz_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zhz_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zhz_interfaces__rosidl_typesupport_c__pyext-cf2f05cee9b4345fc2cb.json",
+					"name" : "zhz_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zhz_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zhz_interfaces__rosidl_typesupport_cpp-481d70a89a7c21956d5b.json",
+					"name" : "zhz_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zhz_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zhz_interfaces__rosidl_typesupport_fastrtps_c-c200e288b10c181e95dd.json",
+					"name" : "zhz_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zhz_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zhz_interfaces__rosidl_typesupport_fastrtps_c__pyext-e86b8ae1bb27444e5e7b.json",
+					"name" : "zhz_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zhz_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zhz_interfaces__rosidl_typesupport_fastrtps_cpp-626366a2525878d1b872.json",
+					"name" : "zhz_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zhz_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zhz_interfaces__rosidl_typesupport_introspection_c-5048eeefe1f44fd7b0fe.json",
+					"name" : "zhz_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zhz_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zhz_interfaces__rosidl_typesupport_introspection_c__pyext-d62124cbf3011594effe.json",
+					"name" : "zhz_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zhz_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zhz_interfaces__rosidl_typesupport_introspection_cpp-3b9ca91cd2b365cbf9dc.json",
+					"name" : "zhz_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "zhz_interfaces__rs::@820ab09278afd9abd05b",
+					"jsonFile" : "target-zhz_interfaces__rs-c56f525b47a5f4017aba.json",
+					"name" : "zhz_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zhz_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zhz_interfaces_uninstall-b4454c5d2c63de8b506e.json",
+					"name" : "zhz_interfaces_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zhuhz/zhz_ws/build/zhz_interfaces",
+		"source" : "/home/zhuhz/zhz_ws/src/zhz_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

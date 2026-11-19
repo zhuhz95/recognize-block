@@ -1,0 +1,51 @@
+[0.056s] Invoking command in '/home/zhuhz/zhz_ws/build/zhz_recognizedBall': AMENT_PREFIX_PATH=/home/zhuhz/zhz_ws/install/zhz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhuhz/zhz_ws/install/zhz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/zhuhz/zhz_ws/install/zhz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zhuhz/zhz_ws/install/zhz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zhuhz/zhz_ws/build/zhz_recognizedBall -- -j24 -l24
+[0.161s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.248s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.262s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.356s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.358s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.366s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.376s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.386s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.416s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.418s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.101s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.152s] -- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.176s] -- Found visualization_msgs: 4.9.2 (/opt/ros/humble/share/visualization_msgs/cmake)
+[3.191s] -- Found zhz_interfaces: 1.0.0 (/home/zhuhz/zhz_ws/install/zhz_interfaces/share/zhz_interfaces/cmake)
+[3.231s] WARNING: Package name "zhz_recognizedBall" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[3.242s] -- Configuring done
+[3.255s] -- Generating done
+[3.258s] -- Build files have been written to: /home/zhuhz/zhz_ws/build/zhz_recognizedBall
+[3.279s] Consolidate compiler generated dependencies of target block_detector
+[3.279s] Consolidate compiler generated dependencies of target image_publisher
+[3.288s] [ 50%] Building CXX object CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o
+[3.288s] [ 50%] Building CXX object CMakeFiles/block_detector.dir/src/block_detector.cpp.o
+[7.630s] [ 75%] Linking CXX executable image_publisher
+[7.898s] [ 75%] Built target image_publisher
+[11.273s] [100%] Linking CXX executable block_detector
+[11.606s] [100%] Built target block_detector
+[11.612s] Invoked command in '/home/zhuhz/zhz_ws/build/zhz_recognizedBall' returned '0': AMENT_PREFIX_PATH=/home/zhuhz/zhz_ws/install/zhz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhuhz/zhz_ws/install/zhz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/zhuhz/zhz_ws/install/zhz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zhuhz/zhz_ws/install/zhz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zhuhz/zhz_ws/build/zhz_recognizedBall -- -j24 -l24
+[11.618s] Invoking command in '/home/zhuhz/zhz_ws/build/zhz_recognizedBall': AMENT_PREFIX_PATH=/home/zhuhz/zhz_ws/install/zhz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhuhz/zhz_ws/install/zhz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/zhuhz/zhz_ws/install/zhz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zhuhz/zhz_ws/install/zhz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zhuhz/zhz_ws/build/zhz_recognizedBall
+[11.622s] -- Install configuration: ""
+[11.622s] -- Execute custom install script
+[11.624s] -- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/lib/zhz_recognizedBall/image_publisher
+[11.624s] -- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/lib/zhz_recognizedBall/block_detector
+[11.625s] -- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/launch/bringup.launch.xml
+[11.625s] -- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/data/blocks.jpg
+[11.625s] -- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/ament_index/resource_index/package_run_dependencies/zhz_recognizedBall
+[11.626s] -- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/ament_index/resource_index/parent_prefix_path/zhz_recognizedBall
+[11.626s] -- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/environment/ament_prefix_path.sh
+[11.626s] -- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/environment/ament_prefix_path.dsv
+[11.626s] -- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/environment/path.sh
+[11.627s] -- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/environment/path.dsv
+[11.627s] -- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/local_setup.bash
+[11.627s] -- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/local_setup.sh
+[11.628s] -- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/local_setup.zsh
+[11.628s] -- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/local_setup.dsv
+[11.628s] -- Symlinking: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/package.dsv
+[11.635s] -- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/ament_index/resource_index/packages/zhz_recognizedBall
+[11.636s] -- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/cmake/zhz_recognizedBallConfig.cmake
+[11.636s] -- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/cmake/zhz_recognizedBallConfig-version.cmake
+[11.636s] -- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/package.xml
+[11.638s] Invoked command in '/home/zhuhz/zhz_ws/build/zhz_recognizedBall' returned '0': AMENT_PREFIX_PATH=/home/zhuhz/zhz_ws/install/zhz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhuhz/zhz_ws/install/zhz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/zhuhz/zhz_ws/install/zhz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zhuhz/zhz_ws/install/zhz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zhuhz/zhz_ws/build/zhz_recognizedBall

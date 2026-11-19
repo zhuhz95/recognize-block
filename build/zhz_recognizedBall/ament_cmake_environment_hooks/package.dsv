@@ -1,0 +1,4 @@
+source;share/zhz_recognizedBall/local_setup.bash
+source;share/zhz_recognizedBall/local_setup.dsv
+source;share/zhz_recognizedBall/local_setup.sh
+source;share/zhz_recognizedBall/local_setup.zsh

@@ -1,0 +1,176 @@
+[0.000000] (-) TimerEvent: {}
+[0.000075] (-) JobUnselected: {'identifier': 'zhz_interfaces'}
+[0.000098] (zhz_recognizedBall) JobQueued: {'identifier': 'zhz_recognizedBall', 'dependencies': OrderedDict([('zhz_interfaces', '/home/zhuhz/zhz_ws/install/zhz_interfaces')])}
+[0.000113] (zhz_recognizedBall) JobStarted: {'identifier': 'zhz_recognizedBall'}
+[0.053629] (zhz_recognizedBall) JobProgress: {'identifier': 'zhz_recognizedBall', 'progress': 'cmake'}
+[0.055346] (zhz_recognizedBall) JobProgress: {'identifier': 'zhz_recognizedBall', 'progress': 'build'}
+[0.055444] (zhz_recognizedBall) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zhuhz/zhz_ws/build/zhz_recognizedBall', '--', '-j24', '-l24'], 'cwd': '/home/zhuhz/zhz_ws/build/zhz_recognizedBall', 'env': OrderedDict([('USER', 'zhuhz'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zhuhz/zhz_ws/install/zhz_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zhuhz'), ('OLDPWD', '/mnt/c/Users/zhuhz/Documents/deepseek-harness/default-workspace'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zhuhz'), ('NAME', 'LAPTOP-9Q2BVL28'), ('WSL_INTEROP', '/run/WSL/48740_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/matlab/runtime/win64:/mnt/d/matlab/bin:/mnt/d/cmake/bin:/mnt/d/git/Git/cmd:/mnt/d/nodejs/:/mnt/c/Program Files/WSL/:/mnt/c/Users/zhuhz/AppData/Local/Microsoft/WindowsApps:/mnt/d/msys64/ucrt64/bin:/mnt/c/Users/zhuhz/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/zhuhz/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim:/mnt/c/Users/zhuhz/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/zhuhz/zhz_ws/install/zhz_interfaces:/opt/ros/humble'), ('SHELL', '/bin/sh'), ('PWD', '/home/zhuhz/zhz_ws/build/zhz_recognizedBall'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zhuhz/zhz_ws/install/zhz_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/zhuhz/zhz_ws/install/zhz_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.099558] (-) TimerEvent: {}
+[0.161266] (zhz_recognizedBall) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199729] (-) TimerEvent: {}
+[0.248226] (zhz_recognizedBall) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.262437] (zhz_recognizedBall) StdoutLine: {'line': b'-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299865] (-) TimerEvent: {}
+[0.355876] (zhz_recognizedBall) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.358499] (zhz_recognizedBall) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.366242] (zhz_recognizedBall) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.375897] (zhz_recognizedBall) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.385951] (zhz_recognizedBall) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400016] (-) TimerEvent: {}
+[0.416403] (zhz_recognizedBall) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.418224] (zhz_recognizedBall) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500154] (-) TimerEvent: {}
+[0.600385] (-) TimerEvent: {}
+[0.700616] (-) TimerEvent: {}
+[0.800848] (-) TimerEvent: {}
+[0.901074] (-) TimerEvent: {}
+[1.001291] (-) TimerEvent: {}
+[1.101518] (-) TimerEvent: {}
+[1.201747] (-) TimerEvent: {}
+[1.301990] (-) TimerEvent: {}
+[1.402223] (-) TimerEvent: {}
+[1.502459] (-) TimerEvent: {}
+[1.602687] (-) TimerEvent: {}
+[1.702978] (-) TimerEvent: {}
+[1.803263] (-) TimerEvent: {}
+[1.903500] (-) TimerEvent: {}
+[2.003834] (-) TimerEvent: {}
+[2.104091] (-) TimerEvent: {}
+[2.204457] (-) TimerEvent: {}
+[2.304767] (-) TimerEvent: {}
+[2.404993] (-) TimerEvent: {}
+[2.505232] (-) TimerEvent: {}
+[2.605455] (-) TimerEvent: {}
+[2.705697] (-) TimerEvent: {}
+[2.805924] (-) TimerEvent: {}
+[2.906163] (-) TimerEvent: {}
+[3.006378] (-) TimerEvent: {}
+[3.100520] (zhz_recognizedBall) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.106492] (-) TimerEvent: {}
+[3.151690] (zhz_recognizedBall) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.176234] (zhz_recognizedBall) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.2 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[3.190588] (zhz_recognizedBall) StdoutLine: {'line': b'-- Found zhz_interfaces: 1.0.0 (/home/zhuhz/zhz_ws/install/zhz_interfaces/share/zhz_interfaces/cmake)\n'}
+[3.206618] (-) TimerEvent: {}
+[3.231470] (zhz_recognizedBall) StderrLine: {'line': b'WARNING: Package name "zhz_recognizedBall" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[3.242336] (zhz_recognizedBall) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.254733] (zhz_recognizedBall) StdoutLine: {'line': b'-- Generating done\n'}
+[3.258240] (zhz_recognizedBall) StdoutLine: {'line': b'-- Build files have been written to: /home/zhuhz/zhz_ws/build/zhz_recognizedBall\n'}
+[3.279332] (zhz_recognizedBall) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target block_detector\n'}
+[3.279472] (zhz_recognizedBall) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target image_publisher\n'}
+[3.287882] (zhz_recognizedBall) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o\n'}
+[3.288022] (zhz_recognizedBall) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/block_detector.dir/src/block_detector.cpp.o\n'}
+[3.306776] (-) TimerEvent: {}
+[3.407042] (-) TimerEvent: {}
+[3.507437] (-) TimerEvent: {}
+[3.607841] (-) TimerEvent: {}
+[3.708254] (-) TimerEvent: {}
+[3.808593] (-) TimerEvent: {}
+[3.908924] (-) TimerEvent: {}
+[4.009223] (-) TimerEvent: {}
+[4.109437] (-) TimerEvent: {}
+[4.209675] (-) TimerEvent: {}
+[4.309941] (-) TimerEvent: {}
+[4.410222] (-) TimerEvent: {}
+[4.510483] (-) TimerEvent: {}
+[4.610729] (-) TimerEvent: {}
+[4.711021] (-) TimerEvent: {}
+[4.811305] (-) TimerEvent: {}
+[4.911689] (-) TimerEvent: {}
+[5.012061] (-) TimerEvent: {}
+[5.112405] (-) TimerEvent: {}
+[5.212917] (-) TimerEvent: {}
+[5.313289] (-) TimerEvent: {}
+[5.413600] (-) TimerEvent: {}
+[5.513886] (-) TimerEvent: {}
+[5.614171] (-) TimerEvent: {}
+[5.714497] (-) TimerEvent: {}
+[5.814812] (-) TimerEvent: {}
+[5.915196] (-) TimerEvent: {}
+[6.015516] (-) TimerEvent: {}
+[6.115995] (-) TimerEvent: {}
+[6.216386] (-) TimerEvent: {}
+[6.316760] (-) TimerEvent: {}
+[6.417125] (-) TimerEvent: {}
+[6.517593] (-) TimerEvent: {}
+[6.617891] (-) TimerEvent: {}
+[6.718184] (-) TimerEvent: {}
+[6.818584] (-) TimerEvent: {}
+[6.918859] (-) TimerEvent: {}
+[7.019183] (-) TimerEvent: {}
+[7.119459] (-) TimerEvent: {}
+[7.219798] (-) TimerEvent: {}
+[7.320281] (-) TimerEvent: {}
+[7.420567] (-) TimerEvent: {}
+[7.520842] (-) TimerEvent: {}
+[7.621164] (-) TimerEvent: {}
+[7.629735] (zhz_recognizedBall) StdoutLine: {'line': b'[ 75%] Linking CXX executable image_publisher\n'}
+[7.721308] (-) TimerEvent: {}
+[7.821654] (-) TimerEvent: {}
+[7.897837] (zhz_recognizedBall) StdoutLine: {'line': b'[ 75%] Built target image_publisher\n'}
+[7.921775] (-) TimerEvent: {}
+[8.022078] (-) TimerEvent: {}
+[8.122331] (-) TimerEvent: {}
+[8.222597] (-) TimerEvent: {}
+[8.322913] (-) TimerEvent: {}
+[8.423200] (-) TimerEvent: {}
+[8.523470] (-) TimerEvent: {}
+[8.623881] (-) TimerEvent: {}
+[8.724276] (-) TimerEvent: {}
+[8.824682] (-) TimerEvent: {}
+[8.924993] (-) TimerEvent: {}
+[9.025320] (-) TimerEvent: {}
+[9.125589] (-) TimerEvent: {}
+[9.225813] (-) TimerEvent: {}
+[9.326048] (-) TimerEvent: {}
+[9.426335] (-) TimerEvent: {}
+[9.526595] (-) TimerEvent: {}
+[9.626814] (-) TimerEvent: {}
+[9.727139] (-) TimerEvent: {}
+[9.827386] (-) TimerEvent: {}
+[9.927637] (-) TimerEvent: {}
+[10.027886] (-) TimerEvent: {}
+[10.128177] (-) TimerEvent: {}
+[10.228477] (-) TimerEvent: {}
+[10.328765] (-) TimerEvent: {}
+[10.429081] (-) TimerEvent: {}
+[10.529566] (-) TimerEvent: {}
+[10.629813] (-) TimerEvent: {}
+[10.730053] (-) TimerEvent: {}
+[10.830297] (-) TimerEvent: {}
+[10.930579] (-) TimerEvent: {}
+[11.030824] (-) TimerEvent: {}
+[11.131157] (-) TimerEvent: {}
+[11.231444] (-) TimerEvent: {}
+[11.272607] (zhz_recognizedBall) StdoutLine: {'line': b'[100%] Linking CXX executable block_detector\n'}
+[11.331600] (-) TimerEvent: {}
+[11.431868] (-) TimerEvent: {}
+[11.532243] (-) TimerEvent: {}
+[11.605646] (zhz_recognizedBall) StdoutLine: {'line': b'[100%] Built target block_detector\n'}
+[11.612228] (zhz_recognizedBall) CommandEnded: {'returncode': 0}
+[11.613030] (zhz_recognizedBall) JobProgress: {'identifier': 'zhz_recognizedBall', 'progress': 'install'}
+[11.617638] (zhz_recognizedBall) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zhuhz/zhz_ws/build/zhz_recognizedBall'], 'cwd': '/home/zhuhz/zhz_ws/build/zhz_recognizedBall', 'env': OrderedDict([('USER', 'zhuhz'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zhuhz/zhz_ws/install/zhz_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zhuhz'), ('OLDPWD', '/mnt/c/Users/zhuhz/Documents/deepseek-harness/default-workspace'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zhuhz'), ('NAME', 'LAPTOP-9Q2BVL28'), ('WSL_INTEROP', '/run/WSL/48740_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/matlab/runtime/win64:/mnt/d/matlab/bin:/mnt/d/cmake/bin:/mnt/d/git/Git/cmd:/mnt/d/nodejs/:/mnt/c/Program Files/WSL/:/mnt/c/Users/zhuhz/AppData/Local/Microsoft/WindowsApps:/mnt/d/msys64/ucrt64/bin:/mnt/c/Users/zhuhz/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/zhuhz/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim:/mnt/c/Users/zhuhz/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/zhuhz/zhz_ws/install/zhz_interfaces:/opt/ros/humble'), ('SHELL', '/bin/sh'), ('PWD', '/home/zhuhz/zhz_ws/build/zhz_recognizedBall'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zhuhz/zhz_ws/install/zhz_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/zhuhz/zhz_ws/install/zhz_interfaces:/opt/ros/humble')]), 'shell': False}
+[11.622121] (zhz_recognizedBall) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.622367] (zhz_recognizedBall) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.623699] (zhz_recognizedBall) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/lib/zhz_recognizedBall/image_publisher\n'}
+[11.623885] (zhz_recognizedBall) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/lib/zhz_recognizedBall/block_detector\n'}
+[11.624664] (zhz_recognizedBall) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/launch/bringup.launch.xml\n'}
+[11.624929] (zhz_recognizedBall) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/data/blocks.jpg\n'}
+[11.625297] (zhz_recognizedBall) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/ament_index/resource_index/package_run_dependencies/zhz_recognizedBall\n'}
+[11.625691] (zhz_recognizedBall) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/ament_index/resource_index/parent_prefix_path/zhz_recognizedBall\n'}
+[11.625991] (zhz_recognizedBall) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/environment/ament_prefix_path.sh\n'}
+[11.626193] (zhz_recognizedBall) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/environment/ament_prefix_path.dsv\n'}
+[11.626421] (zhz_recognizedBall) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/environment/path.sh\n'}
+[11.626709] (zhz_recognizedBall) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/environment/path.dsv\n'}
+[11.626972] (zhz_recognizedBall) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/local_setup.bash\n'}
+[11.627230] (zhz_recognizedBall) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/local_setup.sh\n'}
+[11.627567] (zhz_recognizedBall) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/local_setup.zsh\n'}
+[11.627883] (zhz_recognizedBall) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/local_setup.dsv\n'}
+[11.627990] (zhz_recognizedBall) StdoutLine: {'line': b'-- Symlinking: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/package.dsv\n'}
+[11.632352] (-) TimerEvent: {}
+[11.635194] (zhz_recognizedBall) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/ament_index/resource_index/packages/zhz_recognizedBall\n'}
+[11.635573] (zhz_recognizedBall) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/cmake/zhz_recognizedBallConfig.cmake\n'}
+[11.635955] (zhz_recognizedBall) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/cmake/zhz_recognizedBallConfig-version.cmake\n'}
+[11.636216] (zhz_recognizedBall) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhuhz/zhz_ws/install/zhz_recognizedBall/share/zhz_recognizedBall/package.xml\n'}
+[11.637589] (zhz_recognizedBall) CommandEnded: {'returncode': 0}
+[11.654287] (zhz_recognizedBall) JobEnded: {'identifier': 'zhz_recognizedBall', 'rc': 0}
+[11.654888] (-) EventReactorShutdown: {}

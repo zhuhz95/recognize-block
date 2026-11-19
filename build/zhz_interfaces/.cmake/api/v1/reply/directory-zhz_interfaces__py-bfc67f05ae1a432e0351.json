@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "zhz_interfaces__py",
+		"source" : "/home/zhuhz/zhz_ws/build/zhz_interfaces/zhz_interfaces__py"
+	}
+}

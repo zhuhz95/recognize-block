@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from zhz_interfaces/srv/DetectBlock.srv
+// generated code does not contain a copyright notice
+
+
+module zhz_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "服务请求：要识别哪一种颜色")
+    struct DetectBlock_Request {
+      string color;
+    };
+    @verbatim (language="comment", text=
+      "服务响应：识别框左上角坐标和宽高")
+    struct DetectBlock_Response {
+      int32 x;
+
+      int32 y;
+
+      int32 w;
+
+      int32 h;
+    };
+  };
+};
